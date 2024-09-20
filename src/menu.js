@@ -16,7 +16,7 @@ const loadMenu = (function(){
 
     for(let i=1;i<5;i++){
         const itemDOM = document.createElement("div");
-        itemDOM.classList.add("item"+i);
+        itemDOM.classList.add("item");
         contentDOM.appendChild(itemDOM);
 
         const itemWordsDOM = document.createElement("div");

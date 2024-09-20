@@ -11,7 +11,7 @@ const contactLoad = (function(){
 
     for(let i=1;i<4;i++){
         const itemDOM = document.createElement("div");
-        itemDOM.classList.add("item"+i);
+        itemDOM.classList.add("item");
         contentDOM.appendChild(itemDOM);
 
         const itemHeadingDOM = document.createElement("div");

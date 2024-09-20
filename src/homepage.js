@@ -8,7 +8,7 @@ const pageLoad = (function(){
     contentDOM.appendChild(headerDOM);
 
     const itemDOM = document.createElement("div");
-    itemDOM.classList.add("item1");
+    itemDOM.classList.add("item");
     contentDOM.appendChild(itemDOM);
 
    
