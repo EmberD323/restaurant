@@ -1,7 +1,6 @@
 import cookieImage from "./images/cookies.jpeg";
 const pageLoad = (function(){
     const contentDOM = document.querySelector("#content");
-    contentDOM.innerHTML=""; //delete old page
     
     const headerDOM = document.createElement("div");
     headerDOM.classList.add("header");

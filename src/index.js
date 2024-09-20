@@ -6,9 +6,11 @@ pageLoad();
 
 const DOM = document.querySelector("body").childNodes;
 const headerDOM = DOM[1].childNodes;
-console.log(headerDOM);
+console.log(DOM);
 headerDOM.forEach((button)=>{
     button.addEventListener("click",(e)=>{
+        const contentDOM = DOM[3];
+        contentDOM.innerHTML=""; //delete old page
         let buttonID = e.target.id;
         console.log(buttonID);
         if(buttonID == "contact"){

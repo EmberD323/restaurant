@@ -1,8 +1,6 @@
 
 const contactLoad = (function(){
     const contentDOM = document.querySelector("#content");
-    contentDOM.innerHTML=""; //delete old page
-
     const headerDOM = document.createElement("div");
     headerDOM.classList.add("header");
     headerDOM.textContent = "Contact Us";
